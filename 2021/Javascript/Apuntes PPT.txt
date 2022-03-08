@@ -1,0 +1,18 @@
+PPT:
+	JS: QUÉ ES
+		EJEMPLO DE JAKIAR EL TEXTBOX DE CONTRASEÑA
+		EJEMPLO EN CONSOLA
+		MUESTRAS DE CÓDIGO
+		EJEMPLOS PRÁCTICOS
+			Cómo seleccionar un control del form
+			Cambiar contenido de un control
+			Crear un objeto / clase / estructura
+		APIS
+		AJAX
+		Manipulación del DOM
+		LOCAL STORAGE
+		
+	
+
+	¿FRAMEWORKS INTRODUCCIÓN?
+

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!-- browser-sync start --server --serveStatic 'docs' --files '**/*.html,**/*.cs' -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" type="text/css" title="style">
+    <script src="index.js"></script>
+
+    <title>Local Storage</title>
+</head>
+<body onload="CargarPagina();">
+  <header class="flex justify-between text-sm text-gray-700 bg-gray-400">
+    <div> <!-- left side of nav -->
+      <div class="flex items-center">
+        <label id="lblUsuario"></label>
+        <a id="aScope" href="https://developer.mozilla.org/es/docs/Web/API/Document/cookie" class="block p-3 text-blue-900 font-semibold">Cookies</a>
+        <a id="aObjetos" href="https://developer.mozilla.org/es/docs/Web/API/Window/localStorage" class="block p-3 text-green-900 font-semibold">Local Storage</a>
+      </div>
+    </div>
+    <div> <!-- right side of nav -->
+      <div class="flex items-center">
+        <a href="https://developer.mozilla.org/es/docs/Web/API/Window/sessionStorage" class="block p-3 text-blue-900 font-semibold">Session Storage</a>
+        <a href="index2.html" class="block p-3 text-red-900 font-semibold">Ingresar</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="min-h-screen bg-gray-300 py-6 flex flex-col justify-center sm:py-12">
+    <div class="relative py-3 sm:max-w-xl sm:mx-auto">
+      <div class="mt-12 max-w-lg mx-auto lg:max-w-none">
+        <div class="flex flex-col rounded-lg shadow-lg overflow-hidden bg-gray-400">
+          <div class="flex-shrink-0 bg-gray-200">
+            <img class="h-48 w-full object-contain mx-10 pr-10" src="https://ucu.edu.uy/sites/all/themes/univer/images/logo_es.png" alt="">
+          </div>
+          <p class="text-xl font-semibold text-gray-900 ml-5">Ingrese sus datos</p>
+
+          <div class="my-5 mx-5">
+            <label for="txtNombre">Nombre</label>
+            <input id="txtNombre"
+                class="rounded-full h-8 w-full px-2"
+            />
+
+            <label for="txtEdad">Edad</label>
+            <input id="txtEdad"
+                class="rounded-full h-8 w-full px-2"
+            />
+
+            <label for="txtUsuario">Usuario</label>
+            <input id="txtUsuario"
+                class="rounded-full h-8 w-full px-2"
+            />
+
+            <label for="txtPass">Password</label>
+            <input id="txtPass"
+              class="rounded-full h-8 w-full px-2"
+              type="password" />
+            
+            <p class="my-5 mx-5">
+              <button id="btnSubmit" class="rounded-full h-8 w-full px-2 bg-blue-400 text-gray-100 text-bold"
+                type="button" onclick="Submit();">
+                Registrarse
+              </button>
+            </p>
+           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bottom-0 w-full h-16 bg-red-400 lg:bg-blue-900 flex flex-row justify-between items-center px-4">
+    
+  </div>
+</body>
+</html>

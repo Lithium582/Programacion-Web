@@ -1,0 +1,6 @@
+Video:
+https://www.youtube.com/watch?v=3xlUAMXui2c&list=PLPl81lqbj-4JdoHDiERR2ptkw9zRggXAL
+
+LINK CDN 03/09/2021:
+<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
